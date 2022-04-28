@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>ColorCode</title>
+</head>
+<body class="bg-light">
+    <style>
+        .font-lg {
+                font-size: 4em;
+                font: bolder;
+            }
+        .font-md {
+            font-size: 2em;
+            font: bolder;
+        }
+        .font-sm {
+            font-size: 1em;
+            font: bolder;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style> 
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid m-1">
+            <span class="font-monospace navbar-brand fw-bolder fs-5 text-light align-middle">
+                ColorCode
+            </span>
+            <span class="font-monospace navbar-brand fw-bolder fs-5 text-light align-middle">
+                <a href="{{url_for('index')}}" class="text-reset text-decoration-none">Go Back</a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h3 class="font-lg font-monospace fw-bold">
+                    How it works.!?
+                </h3>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5 text-center">
+            <div class="col-10 offset-1">
+                <p class="font-md font-monospace fw-bold">
+                    Step 1.
+                </p>
+                <p class="font-sm font-monospace fw-bold">
+                    Hit the "START" button in the home to re-direct to the image upload page.
+                </p>
+            </div>
+            <div class="col-10 offset-1">
+                <p class="font-md font-monospace fw-bold">
+                    Step 2.
+                </p>
+                <p class="font-sm font-monospace fw-bold">
+                    Hit the "UPLOAD" button to upload images from your gallery or you can take a photo too and select the number of dominating colors.
+                </p>
+            </div>
+            <div class="col-10 offset-1">
+                <p class="font-md font-monospace fw-bold">
+                    Step 3.
+                </p>
+                <p class="font-sm font-monospace fw-bold">
+                    Hit the "EXTRACT" button to get the color codes, This will load a while. After that you will get color code in Hex and RBG format.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col text-start">
+                    <span class="font-monospace fw-bolder fs-6 text-light">
+                        Contribute
+                    </span>
+                  </div>
+                <div class="col text-center">
+                    <span class="font-monospace fw-bolder fs-6 text-light">
+                        ColorCode
+                    </span>
+                </div>
+                <div class="col text-end">
+                    <span class="font-monospace fw-bolder fs-6 text-light">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScWvBvKZVDETb8Cahxwaj8Yzgr9TIb7XVs-DwcxlYNwqkasVw/viewform?usp=sf_link" class="text-reset text-decoration-none">
+                            Feedback
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+</body>
