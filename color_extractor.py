@@ -2,9 +2,9 @@ from collections import Counter
 from sklearn.cluster import KMeans
 import cv2
 
-
 class ColorCodes:
     def __init__(self, image_path=None, num_of_cluster=5):
+        # image and number of colors to be predicted.
         self.image_path = image_path
         self.num_of_cluster = num_of_cluster
 
@@ -14,6 +14,7 @@ class ColorCodes:
 
         return image
 
+    # get hex color codes.
     def rgb_to_hex(self, rgb_color):
         hex_color = "#"
 
@@ -32,6 +33,7 @@ class ColorCodes:
 
         return hex_colors
 
+    # get hex colors
     def get_rgb(self, hex_colors):
         color_codes = []
 
@@ -45,6 +47,7 @@ class ColorCodes:
 
         return color_codes
 
+    # processing and get color codes.
     def extract_colors_code(self):
         try:
             image = cv2.imread(self.image_path)
