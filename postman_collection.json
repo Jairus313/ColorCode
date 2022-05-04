@@ -11,15 +11,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000/",
+					"raw": "http://0.0.0.0:8000/",
 					"protocol": "http",
 					"host": [
-						"127",
 						"0",
 						"0",
-						"1"
+						"0",
+						"0"
 					],
-					"port": "5000",
+					"port": "8000",
 					"path": [
 						""
 					]
@@ -38,22 +38,39 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/home/jairus313/Desktop/color_extractor/image.jpeg"
+							"src": "/home/jairus313/Desktop/color_extractor_product/image.jpg"
+						},
+						{
+							"key": "btnradio",
+							"value": "5",
+							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://127.0.0.1:5000/upload",
+					"raw": "http://0.0.0.0:8000/result",
 					"protocol": "http",
 					"host": [
-						"127",
 						"0",
 						"0",
-						"1"
+						"0",
+						"0"
 					],
-					"port": "5000",
+					"port": "8000",
 					"path": [
-						"upload"
+						"result"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
 					]
 				}
 			},
