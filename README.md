@@ -29,4 +29,4 @@ https://linkedin.com/in/sudeepnellur**
 **Write to me at📧:<br/>
 sudeep.nellue.7@gmail.com**
 
-### Thank you for reading and trying out the app and if you have any feedback, Please do leave it [here](https://docs.google.com/forms/d/e/1FAIpQLScWvBvKZVDETb8Cahxwaj8Yzgr9TIb7XVs-DwcxlYNwqkasVw/viewform?usp=sf_link) and if you want to contribute any then fork this repo and HMU a PR. Don't forget to star this repo and Keep Learning
+### Thank you for reading and trying out the app and if you have any feedback, Please do leave it [here](https://docs.google.com/forms/d/e/1FAIpQLScWvBvKZVDETb8Cahxwaj8Yzgr9TIb7XVs-DwcxlYNwqkasVw/viewform?usp=sf_link) and if you want to contribute any then fork this repo and HMU a PR. Don't forget to :star: this repo and Keep Learning..!!
