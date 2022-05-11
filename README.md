@@ -7,7 +7,7 @@ A) Anyone in the industry like UX/UI designer, Frontend developer, Photographer/
 
 Let's talk about the tech stack of the app.
 
-<img>
+<img  src="architecture.jpg"  alt="architecture"  height="500" width="800"/>
 
 The App got **Clustering ML algorithm** which will create the clusters for all similar colour and using the centroid of the each cluster we can fetch the HEX and RGB code. Then this app is exposed as APIs where it can be connected to the frontend later and here I have went with **Flask** as RestAPI framework. The visualisation is taken care via **Bootstrap** and user will be using the app via this. To make it as production grade ready I have added WSGI server using the **Gunicorn**. To finish it up all neat and good I have containerised the app by creating the **Docker Image** and this is simply made live **Heroku** cloud server.
 <br/>
