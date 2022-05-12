@@ -9,7 +9,7 @@ Let's talk about the tech stack of the app.
 
 <img  src="architecture.jpg"  alt="architecture"  height="500" width="800"/>
 
-The App got **Clustering ML algorithm** which will create the clusters for all similar colour and using the centroid of the each cluster we can fetch the HEX and RGB code. Then this app is exposed as APIs where it can be connected to the frontend later and here I have went with **Flask** as RestAPI framework. The visualisation is taken care via **Bootstrap** and user will be using the app via this. To make it as production grade ready I have added WSGI server using the **Gunicorn**. To finish it up all neat and good I have containerised the app by creating the **Docker Image** and this is simply made live **Heroku** cloud server.
+The App got a **Clustering ML algorithm** that will create the clusters for all similar colors and using the centroid of each cluster we can fetch the HEX and RGB code. Then this app is exposed as APIs where it can be connected to the frontend later and here I have gone with **Flask** as the RestAPI framework. The visualization is taken care of via **Bootstrap** and the user will be using the app via this. To make it production-grade ready I have added a WSGI server using the **Gunicorn**. To finish it up all neat and good I have containerized the app by creating the **Docker** Image and this is simply made live **Heroku** cloud server.
 <br/>
 
 ### Some action time...!
@@ -17,7 +17,7 @@ The App got **Clustering ML algorithm** which will create the clusters for all s
 **Check out the app yourself at📲:<br/>
 https://colorcodes.herokuapp.com/**
 
-**Check out the app in your machine💻:<br/>
+**Check out the app on your machine💻:<br/>
 https://github.com/Jairus313/ColorCode/packages/1402126**
 
 **To collaborate with me🤝🏻:<br/>
