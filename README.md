@@ -1,6 +1,6 @@
 # ColorCode
 
-### Hey There.! I am Sudeep Nellur back with another pet project after decade of procrastination(startup guy:cry:) called as *ColorCode*. This is a web app where you will upload an image and it will give you the color palette so that you don't have to stretch your head for the HEX code or RBG code of your favorite color out of the images you just saw.
+### Hey There.! I am Sudeep Nellur back with another pet project after decade of procrastination(startup guy:cry:) called as *ColorCode*. This is a web app where you will upload an image and it will give you the color palette so that you don't have to scratch your head for the HEX code or RBG code of your favorite color out of the images you just saw.
 
 Q) Now why it is used and who can benefit out of it?<br/>
 A) Anyone in the industry like UX/UI designer, Frontend developer, Photographer/Videographer, Fashion designer and folks in architecture.
